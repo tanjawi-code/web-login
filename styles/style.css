@@ -10,7 +10,7 @@
 }
 
 body{
-    background: url(images/sunset-7133867_1280.jpg)no-repeat;
+    background: url(../images/sunset-7133867_1280.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h1::first-letter {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: rgb(0, 255, 242);
     font-style: italic;
 }
@@ -154,8 +154,7 @@ h1::first-letter {
         max-width: 100%;
     }
 
-    .login-page .user-form .div-name input,
-    .login-page .user-form .div-password input {
+    input {
         display: block;
         margin: auto;
     }
